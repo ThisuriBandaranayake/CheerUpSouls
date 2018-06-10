@@ -1,0 +1,53 @@
+h2{
+    text-align: center;
+    color: darkred;
+    font-family: 'Times New Roman', Times, serif
+}
+
+ul {
+    
+    list-style-type: none; 
+    padding: 0; 
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(131, 39, 39);
+}
+
+    .wrapper{
+background-color: antiquewhite;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 100%
+        
+    }
+
+    .page{
+        background-color: #111
+    }
+
+    .Slider{
+        height: 60%;
+        width: 60%;
+margin-left: 20%;
+margin-right: 10%;
+margin-top: -1.5%
+
+    }
