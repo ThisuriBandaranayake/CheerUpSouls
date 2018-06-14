@@ -5,6 +5,7 @@ import { AlertModule } from 'ngx-bootstrap';
 import { AppComponent } from './app.component';
 import { CarouselModule } from 'ngx-bootstrap';
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import {MatGridListModule} from '@angular/material/grid-list';
 @NgModule({
   declarations: [
     AppComponent
@@ -13,7 +14,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     BrowserModule,
     AlertModule.forRoot() ,
     CarouselModule.forRoot(),
-    AngularFontAwesomeModule
+    AngularFontAwesomeModule,
+    MatGridListModule
 
   ],
   providers: [],
